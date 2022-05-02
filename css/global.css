@@ -1,0 +1,11 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'DM Sans', sans-serif;
+    box-sizing: border-box;
+}

@@ -1,0 +1,11 @@
+/* cores */
+@import url(./color.css);
+
+/* home */
+@import url(./home.css);
+
+/* global */
+@import url(./global.css);
+
+/* utilidades */
+@import url(./utilidades.css);
