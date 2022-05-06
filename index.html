@@ -10,8 +10,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="conteudo">
+<body onscroll="onScroll()" class="menu-expanded">
+    <header>
+        <nav id="navigation" class="margem">
+            <a href="#" class="logo">
+                <img src="./img/Logo.svg" alt="Logo" id="logo">
+            </a>
+
+            <div class="menu">
+                <ul class="links">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Sobre</a></li>
+                </ul>
+
+                <a href="#" class="button">Agende sua consulta</a>
+
+                <ul class="social-links">
+                    <li>
+                        <a target="_blank" href="https://instagram.com"><img src="./img/instagram.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a target="_blank"  href="https://facebook.com"><img src="./img/facebook.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a target="_blank"  href="https://youtube.com"><img src="./img/youtube.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="btn-menu">
+                <img src="./img/Icon.svg" alt="" id="icone">
+            </button> 
+        </nav>
+    </header>
+    <div class="conteudo margem">
         <h4 class="brand-green">BOAS-VINDAS A DOCTORCARE 👋</h4>
 
         <h1 class="gray-headline">Assistência médica simplificada para todos</h1>
@@ -47,4 +80,5 @@
     
     
 </body>
+<script src="./script.js"></script>
 </html>

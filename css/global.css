@@ -9,3 +9,8 @@
     font-family: 'DM Sans', sans-serif;
     box-sizing: border-box;
 }
+
+.margem {
+    width: 37.5rem;
+    margin-inline: auto;
+}
